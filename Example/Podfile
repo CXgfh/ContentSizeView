@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ContentSizeView_Example' do
+  pod 'ContentSizeView', :path => '../'
+
+  target 'ContentSizeView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
