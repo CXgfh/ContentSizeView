@@ -131,6 +131,34 @@ open class ContentSizeOfFlowLayout: UICollectionViewLayout {
     }
     
     public override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
+        //V_V
+//        var layoutAttributes = [UICollectionViewLayoutAttributes]()
+//        guard self.itemSpacing > 0, !rect.isEmpty else {
+//            return layoutAttributes
+//        }
+//        let rect = rect.intersection(CGRect(origin: .zero, size: self.contentSize))
+//        guard !rect.isEmpty else {
+//            return layoutAttributes
+//        }
+//        // Calculate start position and index of certain rects
+//        let numberOfItemsBefore = self.scrollDirection == .horizontal ? max(Int((rect.minX-self.leadingSpacing)/self.itemSpacing),0) : max(Int((rect.minY-self.leadingSpacing)/self.itemSpacing),0)
+//        let startPosition = self.leadingSpacing + CGFloat(numberOfItemsBefore)*self.itemSpacing
+//        let startIndex = numberOfItemsBefore
+//        // Create layout attributes
+//        var itemIndex = startIndex
+//
+//        var origin = startPosition
+//        let maxPosition = self.scrollDirection == .horizontal ? min(rect.maxX,self.contentSize.width-self.actualItemSize.width-self.leadingSpacing) : min(rect.maxY,self.contentSize.height-self.actualItemSize.height-self.leadingSpacing)
+//        // https://stackoverflow.com/a/10335601/2398107
+//        while origin-maxPosition <= max(CGFloat(100.0) * .ulpOfOne * abs(origin+maxPosition), .leastNonzeroMagnitude) {
+//            let indexPath = IndexPath(item: itemIndex%self.numberOfItems, section: itemIndex/self.numberOfItems)
+//            let attributes = self.layoutAttributesForItem(at: indexPath) as! FSPagerViewLayoutAttributes
+//            self.applyTransform(to: attributes, with: self.pagerView?.transformer)
+//            layoutAttributes.append(attributes)
+//            itemIndex += 1
+//            origin += self.itemSpacing
+//        }
+//        return layoutAttributes
         return layoutArr
     }
     

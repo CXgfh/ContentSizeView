@@ -1,5 +1,5 @@
 PODS:
-  - ContentSizeView (0.1.0)
+  - ContentSizeView (1.0.0)
 
 DEPENDENCIES:
   - ContentSizeView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ContentSizeView: 63d453a6f950d8818ef4064667c458eace3b0836
+  ContentSizeView: 896bb73e95d6816b7b5b2777d1242173b7355c5e
 
-PODFILE CHECKSUM: 52b80acd4c686672bb3fc969a3604e4c7a18b312
+PODFILE CHECKSUM: df2fb9e586ff471515b7a3e1d83980d9a290e88d
 
 COCOAPODS: 1.11.3

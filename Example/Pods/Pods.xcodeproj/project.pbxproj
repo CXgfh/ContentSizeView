@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01DF8D59419BDBD3B031359592D094D5 /* Pods-ContentSizeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AFFC74708752F128F56A19F5553829 /* Pods-ContentSizeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01DF8D59419BDBD3B031359592D094D5 /* Pods-ContentSizeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D80C414FC66C93C31CA9DED4FFD6024E /* Pods-ContentSizeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0516C79EC4857E0234DAD84AC5702A35 /* ContentSizeOfTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EAF08EA24A7571527802547082BEFC /* ContentSizeOfTextView.swift */; };
-		41E917CD88D3E6E26E5399A18102C1B9 /* Pods-ContentSizeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6175A89585F5BD221127C71514071671 /* Pods-ContentSizeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5329F45294693710151723C6BAE74477 /* ContentSizeOfButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5839D8AFA56AC1C4E8A7F74901D44642 /* ContentSizeOfButton.swift */; };
-		5485614D1C9B92173461A9CE2D18AD90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7632ABC66502FB40BDFE4ACC03E03EFA /* Pods-ContentSizeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EE516972C5ADA011479BDFE10B66C0 /* Pods-ContentSizeView_Example-dummy.m */; };
+		7632ABC66502FB40BDFE4ACC03E03EFA /* Pods-ContentSizeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1844C049B3451D0AC25A2F70D9B91 /* Pods-ContentSizeView_Example-dummy.m */; };
 		7F923611F4FB3C7D1EF9DEA7C5E57AD8 /* ContentSizeOfScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2A2F7CB050380938B7DB6DD6824B /* ContentSizeOfScrollView.swift */; };
 		8219E2FF4EB6ADA3A6BB02DC27F21110 /* ContentSizeOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20805DD00E46927EB9F6C37050532E0D /* ContentSizeOfView.swift */; };
 		8717BBF5BCCB7D21C9881ADA64DA751A /* ContentSizeOfTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF654786F51A2C9F5BE5AF61C91A071 /* ContentSizeOfTableView.swift */; };
@@ -23,7 +21,6 @@
 		CB93F32212AA55B5AB79826271F450A0 /* ContentSizeOfCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA153CE095E5DD1F3DE1E3CE1B89B69 /* ContentSizeOfCollectionView.swift */; };
 		CCD66A475A70D92E9BA0CB6E48ED5EF3 /* ContentSizeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E789C30950211224F23C19C2FE10F4FD /* ContentSizeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4B5E72A525B37DC581733EE814306F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E89EABAA305DF5400179F1ACEAB0C8DF /* Pods-ContentSizeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F559BFDCE9D86C2C9126055B1A63F /* Pods-ContentSizeView_Tests-dummy.m */; };
 		EE4F5E9990C8B9F722C4D6EA11731731 /* ContentSizeOfFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADDAA07E8EE286E81EAB72D9910932A /* ContentSizeOfFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,68 +32,44 @@
 			remoteGlobalIDString = 3F3AE280C7C9EAB1A3E7565BBF080985;
 			remoteInfo = ContentSizeView;
 		};
-		C06DC6BBB5BC4ACEE3D89764973181DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 33D95B7B7FDD2CE2E67ACCF2141F9FF2;
-			remoteInfo = "Pods-ContentSizeView_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0931DA3DDFF6D0B69E5AA8CF365215C7 /* ContentSizeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ContentSizeView.debug.xcconfig; sourceTree = "<group>"; };
 		0BF654786F51A2C9F5BE5AF61C91A071 /* ContentSizeOfTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentSizeOfTableView.swift; path = ContentSizeView/Classes/ContentSizeOfTableView.swift; sourceTree = "<group>"; };
 		0EB746DAF0931BABA9C7C6553F1478A1 /* ContentSizeOfLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentSizeOfLabel.swift; path = ContentSizeView/Classes/ContentSizeOfLabel.swift; sourceTree = "<group>"; };
-		108F3C9D01573CB7D4EBB620EF684B66 /* Pods-ContentSizeView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContentSizeView_Example-Info.plist"; sourceTree = "<group>"; };
-		1255E5A9B51E49D672AC587CB277FE6D /* Pods-ContentSizeView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ContentSizeView_Tests"; path = Pods_ContentSizeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1285E18DE09FC1953F004DE0F55A946F /* ContentSizeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ContentSizeView-dummy.m"; sourceTree = "<group>"; };
-		131628B66E8EFD01BEC1EDFE049922A8 /* Pods-ContentSizeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContentSizeView_Example.modulemap"; sourceTree = "<group>"; };
-		14EE516972C5ADA011479BDFE10B66C0 /* Pods-ContentSizeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContentSizeView_Example-dummy.m"; sourceTree = "<group>"; };
+		1AAB627012ED23FABA6B798BA5CEB24B /* Pods-ContentSizeView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContentSizeView_Example-Info.plist"; sourceTree = "<group>"; };
 		1ADDAA07E8EE286E81EAB72D9910932A /* ContentSizeOfFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentSizeOfFlowLayout.swift; sourceTree = "<group>"; };
 		1B0AB52017F897098CF733FE8D4ACD53 /* Pods-ContentSizeView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ContentSizeView_Example"; path = Pods_ContentSizeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BF972DFF60925E1E8D3E30F23471580 /* Pods-ContentSizeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContentSizeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20805DD00E46927EB9F6C37050532E0D /* ContentSizeOfView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentSizeOfView.swift; path = ContentSizeView/Classes/ContentSizeOfView.swift; sourceTree = "<group>"; };
 		31CAF292F867C73E3355728E6D562079 /* ContentSizeView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ContentSizeView; path = ContentSizeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A2742402FF45BD97AC4E32C1C4312B9 /* Pods-ContentSizeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContentSizeView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3EE67CEC03E276FA6527FF65F9F69933 /* Pods-ContentSizeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContentSizeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3FA153CE095E5DD1F3DE1E3CE1B89B69 /* ContentSizeOfCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentSizeOfCollectionView.swift; sourceTree = "<group>"; };
 		5695A82100FE46C05BD0106F3856D2CE /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = ContentSizeView/Classes/Util.swift; sourceTree = "<group>"; };
 		5839D8AFA56AC1C4E8A7F74901D44642 /* ContentSizeOfButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentSizeOfButton.swift; path = ContentSizeView/Classes/ContentSizeOfButton.swift; sourceTree = "<group>"; };
 		5AFDF59FC30F3B3D2C8AD6DFD49D20A0 /* ContentSizeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ContentSizeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6175A89585F5BD221127C71514071671 /* Pods-ContentSizeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContentSizeView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6C7F559BFDCE9D86C2C9126055B1A63F /* Pods-ContentSizeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContentSizeView_Tests-dummy.m"; sourceTree = "<group>"; };
+		67E1844C049B3451D0AC25A2F70D9B91 /* Pods-ContentSizeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContentSizeView_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7FA2F0183D72D0B407CEA03DAFB1402E /* ContentSizeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ContentSizeView.release.xcconfig; sourceTree = "<group>"; };
 		81EB73A21C70777497524348063AAD3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		84632A06776E1180C4768CAF2853F81F /* Pods-ContentSizeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContentSizeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8494904AC2E0D0AAD8C5CED88C5D879B /* ContentSizeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ContentSizeView-Info.plist"; sourceTree = "<group>"; };
-		89FD60BF64D1BE88F9EDD9F7C3B1139B /* Pods-ContentSizeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContentSizeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8B6B0CFC867D92B080099A4CFCD9949A /* Pods-ContentSizeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContentSizeView_Tests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCD617A74DB11DAE0E56C92D031DD63 /* Pods-ContentSizeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContentSizeView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A05802C0BCA80DAF50EF3AF44C0CDDDE /* ContentSizeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ContentSizeView-prefix.pch"; sourceTree = "<group>"; };
-		A26FB0776F251D6F73067E93DA2C5FCB /* Pods-ContentSizeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContentSizeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AA53E44533358F090890F0CDEB6F0161 /* Pods-ContentSizeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContentSizeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AFB4D2377C3F036677AC516E50D92916 /* Pods-ContentSizeView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContentSizeView_Tests-Info.plist"; sourceTree = "<group>"; };
+		B0B7A89517E379900D8239B0E04E29AC /* Pods-ContentSizeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContentSizeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CE7090B5E3B7422A6E89BC9BAF04D90D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D80C414FC66C93C31CA9DED4FFD6024E /* Pods-ContentSizeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContentSizeView_Example-umbrella.h"; sourceTree = "<group>"; };
+		DA35F625948DC8E2EE40D05AC19A307A /* Pods-ContentSizeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContentSizeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E789C30950211224F23C19C2FE10F4FD /* ContentSizeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ContentSizeView-umbrella.h"; sourceTree = "<group>"; };
-		E801CB94F5A3FB9EA8F4548BB5957374 /* Pods-ContentSizeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContentSizeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ED18984081DEE5C2CF687E9A83410CAE /* Pods-ContentSizeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContentSizeView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F2EAF08EA24A7571527802547082BEFC /* ContentSizeOfTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentSizeOfTextView.swift; path = ContentSizeView/Classes/ContentSizeOfTextView.swift; sourceTree = "<group>"; };
-		F4AFFC74708752F128F56A19F5553829 /* Pods-ContentSizeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContentSizeView_Example-umbrella.h"; sourceTree = "<group>"; };
 		F5CF4EE55DCDCA9AECB3E2B49139E546 /* ContentSizeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ContentSizeView.modulemap; sourceTree = "<group>"; };
+		F72A4643A0018ABE5DCE977959B77C72 /* Pods-ContentSizeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContentSizeView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBEF2A2F7CB050380938B7DB6DD6824B /* ContentSizeOfScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentSizeOfScrollView.swift; path = ContentSizeView/Classes/ContentSizeOfScrollView.swift; sourceTree = "<group>"; };
+		FEA46A13B0572C31B0A3BEEB4A90BA21 /* Pods-ContentSizeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContentSizeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEDD069BBA997BA496563DF485A4D394 /* Pods-ContentSizeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContentSizeView_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B2B64A6A148F6834E165FD54D63ADD7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5485614D1C9B92173461A9CE2D18AD90 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		305DB21DB78AAEB744F0FE1CC5B0B60E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,14 +89,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18BB2856B9FB92B04800897C07317C8B /* Products */ = {
+		0F3749D1251F63168B80B17CAF17DD08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				31CAF292F867C73E3355728E6D562079 /* ContentSizeView */,
 				1B0AB52017F897098CF733FE8D4ACD53 /* Pods-ContentSizeView_Example */,
-				1255E5A9B51E49D672AC587CB277FE6D /* Pods-ContentSizeView_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2341E9585B456C2881FA39DA76E7B2B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C9C071E146442120338F4167728D9A /* Pods-ContentSizeView_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -170,18 +150,18 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9AD021FD6746157CEEDFB4530DE8BEFE /* Pods-ContentSizeView_Example */ = {
+		A2C9C071E146442120338F4167728D9A /* Pods-ContentSizeView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				131628B66E8EFD01BEC1EDFE049922A8 /* Pods-ContentSizeView_Example.modulemap */,
-				AA53E44533358F090890F0CDEB6F0161 /* Pods-ContentSizeView_Example-acknowledgements.markdown */,
-				A26FB0776F251D6F73067E93DA2C5FCB /* Pods-ContentSizeView_Example-acknowledgements.plist */,
-				14EE516972C5ADA011479BDFE10B66C0 /* Pods-ContentSizeView_Example-dummy.m */,
-				3A2742402FF45BD97AC4E32C1C4312B9 /* Pods-ContentSizeView_Example-frameworks.sh */,
-				108F3C9D01573CB7D4EBB620EF684B66 /* Pods-ContentSizeView_Example-Info.plist */,
-				F4AFFC74708752F128F56A19F5553829 /* Pods-ContentSizeView_Example-umbrella.h */,
-				E801CB94F5A3FB9EA8F4548BB5957374 /* Pods-ContentSizeView_Example.debug.xcconfig */,
-				ED18984081DEE5C2CF687E9A83410CAE /* Pods-ContentSizeView_Example.release.xcconfig */,
+				FEDD069BBA997BA496563DF485A4D394 /* Pods-ContentSizeView_Example.modulemap */,
+				FEA46A13B0572C31B0A3BEEB4A90BA21 /* Pods-ContentSizeView_Example-acknowledgements.markdown */,
+				DA35F625948DC8E2EE40D05AC19A307A /* Pods-ContentSizeView_Example-acknowledgements.plist */,
+				67E1844C049B3451D0AC25A2F70D9B91 /* Pods-ContentSizeView_Example-dummy.m */,
+				9DCD617A74DB11DAE0E56C92D031DD63 /* Pods-ContentSizeView_Example-frameworks.sh */,
+				1AAB627012ED23FABA6B798BA5CEB24B /* Pods-ContentSizeView_Example-Info.plist */,
+				D80C414FC66C93C31CA9DED4FFD6024E /* Pods-ContentSizeView_Example-umbrella.h */,
+				B0B7A89517E379900D8239B0E04E29AC /* Pods-ContentSizeView_Example.debug.xcconfig */,
+				F72A4643A0018ABE5DCE977959B77C72 /* Pods-ContentSizeView_Example.release.xcconfig */,
 			);
 			name = "Pods-ContentSizeView_Example";
 			path = "Target Support Files/Pods-ContentSizeView_Example";
@@ -193,8 +173,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6E1D4A22D61FD108826B3EFAB3C03B7D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				18BB2856B9FB92B04800897C07317C8B /* Products */,
-				F0B1A0A4307FA770B79BF666F51516A1 /* Targets Support Files */,
+				0F3749D1251F63168B80B17CAF17DD08 /* Products */,
+				2341E9585B456C2881FA39DA76E7B2B1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -216,22 +196,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		DF0B250DF3AD6E4C0F1D2002C85A30B9 /* Pods-ContentSizeView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8B6B0CFC867D92B080099A4CFCD9949A /* Pods-ContentSizeView_Tests.modulemap */,
-				1BF972DFF60925E1E8D3E30F23471580 /* Pods-ContentSizeView_Tests-acknowledgements.markdown */,
-				84632A06776E1180C4768CAF2853F81F /* Pods-ContentSizeView_Tests-acknowledgements.plist */,
-				6C7F559BFDCE9D86C2C9126055B1A63F /* Pods-ContentSizeView_Tests-dummy.m */,
-				AFB4D2377C3F036677AC516E50D92916 /* Pods-ContentSizeView_Tests-Info.plist */,
-				6175A89585F5BD221127C71514071671 /* Pods-ContentSizeView_Tests-umbrella.h */,
-				3EE67CEC03E276FA6527FF65F9F69933 /* Pods-ContentSizeView_Tests.debug.xcconfig */,
-				89FD60BF64D1BE88F9EDD9F7C3B1139B /* Pods-ContentSizeView_Tests.release.xcconfig */,
-			);
-			name = "Pods-ContentSizeView_Tests";
-			path = "Target Support Files/Pods-ContentSizeView_Tests";
-			sourceTree = "<group>";
-		};
 		E2419902C0D88FAE4F3F9366E5614D39 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,15 +209,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ContentSizeView";
-			sourceTree = "<group>";
-		};
-		F0B1A0A4307FA770B79BF666F51516A1 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9AD021FD6746157CEEDFB4530DE8BEFE /* Pods-ContentSizeView_Example */,
-				DF0B250DF3AD6E4C0F1D2002C85A30B9 /* Pods-ContentSizeView_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,14 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD66A475A70D92E9BA0CB6E48ED5EF3 /* ContentSizeView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2BFC9595A42A079790350E9EAE45A25 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41E917CD88D3E6E26E5399A18102C1B9 /* Pods-ContentSizeView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,25 +250,6 @@
 			name = "Pods-ContentSizeView_Example";
 			productName = Pods_ContentSizeView_Example;
 			productReference = 1B0AB52017F897098CF733FE8D4ACD53 /* Pods-ContentSizeView_Example */;
-			productType = "com.apple.product-type.framework";
-		};
-		34D723DFD8DD11ED4D1D7E137E0500B2 /* Pods-ContentSizeView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B69F50701A74008D55A994FC39018E9F /* Build configuration list for PBXNativeTarget "Pods-ContentSizeView_Tests" */;
-			buildPhases = (
-				B2BFC9595A42A079790350E9EAE45A25 /* Headers */,
-				D538B4B3D50312BAC209BF3038C256DA /* Sources */,
-				1B2B64A6A148F6834E165FD54D63ADD7 /* Frameworks */,
-				1046B5437DBE19D7D0051A77DAAD8F22 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50B19D3DDCDFDE81AE1EB167E98ED450 /* PBXTargetDependency */,
-			);
-			name = "Pods-ContentSizeView_Tests";
-			productName = Pods_ContentSizeView_Tests;
-			productReference = 1255E5A9B51E49D672AC587CB277FE6D /* Pods-ContentSizeView_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		3F3AE280C7C9EAB1A3E7565BBF080985 /* ContentSizeView */ = {
@@ -360,25 +288,17 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 18BB2856B9FB92B04800897C07317C8B /* Products */;
+			productRefGroup = 0F3749D1251F63168B80B17CAF17DD08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3F3AE280C7C9EAB1A3E7565BBF080985 /* ContentSizeView */,
 				33D95B7B7FDD2CE2E67ACCF2141F9FF2 /* Pods-ContentSizeView_Example */,
-				34D723DFD8DD11ED4D1D7E137E0500B2 /* Pods-ContentSizeView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1046B5437DBE19D7D0051A77DAAD8F22 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4B060EA41C53410E71C295FC80FD250F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,23 +341,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D538B4B3D50312BAC209BF3038C256DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E89EABAA305DF5400179F1ACEAB0C8DF /* Pods-ContentSizeView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		50B19D3DDCDFDE81AE1EB167E98ED450 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ContentSizeView_Example";
-			target = 33D95B7B7FDD2CE2E67ACCF2141F9FF2 /* Pods-ContentSizeView_Example */;
-			targetProxy = C06DC6BBB5BC4ACEE3D89764973181DA /* PBXContainerItemProxy */;
-		};
 		71B93965362A0CF1D5E98006D55D36CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ContentSizeView;
@@ -447,40 +353,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C8E5CB668EA0D3549AF1F05FFD7E8A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0931DA3DDFF6D0B69E5AA8CF365215C7 /* ContentSizeView.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ContentSizeView/ContentSizeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ContentSizeView/ContentSizeView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ContentSizeView/ContentSizeView.modulemap";
-				PRODUCT_MODULE_NAME = ContentSizeView;
-				PRODUCT_NAME = ContentSizeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0F9F716101A305A2C5D42C722E0B385A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E801CB94F5A3FB9EA8F4548BB5957374 /* Pods-ContentSizeView_Example.debug.xcconfig */;
+			baseConfigurationReference = B0B7A89517E379900D8239B0E04E29AC /* Pods-ContentSizeView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -513,7 +388,7 @@
 		};
 		5C74BF19E9ED9821931519AC28D984EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED18984081DEE5C2CF687E9A83410CAE /* Pods-ContentSizeView_Example.release.xcconfig */;
+			baseConfigurationReference = F72A4643A0018ABE5DCE977959B77C72 /* Pods-ContentSizeView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -607,11 +482,10 @@
 			};
 			name = Release;
 		};
-		CA18C5479CD4DC99ECB80223860F160E /* Debug */ = {
+		8288ED7929465B391BEB95937AEDC8A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EE67CEC03E276FA6527FF65F9F69933 /* Pods-ContentSizeView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7FA2F0183D72D0B407CEA03DAFB1402E /* ContentSizeView.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -621,19 +495,50 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ContentSizeView_Tests/Pods-ContentSizeView_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ContentSizeView/ContentSizeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ContentSizeView/ContentSizeView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ContentSizeView_Tests/Pods-ContentSizeView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/ContentSizeView/ContentSizeView.modulemap";
+				PRODUCT_MODULE_NAME = ContentSizeView;
+				PRODUCT_NAME = ContentSizeView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		935DC63198541D2E0F0D5A3BD57520F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0931DA3DDFF6D0B69E5AA8CF365215C7 /* ContentSizeView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ContentSizeView/ContentSizeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ContentSizeView/ContentSizeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ContentSizeView/ContentSizeView.modulemap";
+				PRODUCT_MODULE_NAME = ContentSizeView;
+				PRODUCT_NAME = ContentSizeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -706,80 +611,14 @@
 			};
 			name = Debug;
 		};
-		D7F048A5F7F59C22340C6C9EBCB5D4D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FA2F0183D72D0B407CEA03DAFB1402E /* ContentSizeView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ContentSizeView/ContentSizeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ContentSizeView/ContentSizeView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ContentSizeView/ContentSizeView.modulemap";
-				PRODUCT_MODULE_NAME = ContentSizeView;
-				PRODUCT_NAME = ContentSizeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DADA86CDFE747F855C6D74D2036802A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89FD60BF64D1BE88F9EDD9F7C3B1139B /* Pods-ContentSizeView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ContentSizeView_Tests/Pods-ContentSizeView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ContentSizeView_Tests/Pods-ContentSizeView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		06C850744260C73CCA978D1FE42D3FE6 /* Build configuration list for PBXNativeTarget "ContentSizeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C8E5CB668EA0D3549AF1F05FFD7E8A8 /* Debug */,
-				D7F048A5F7F59C22340C6C9EBCB5D4D6 /* Release */,
+				935DC63198541D2E0F0D5A3BD57520F0 /* Debug */,
+				8288ED7929465B391BEB95937AEDC8A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -798,15 +637,6 @@
 			buildConfigurations = (
 				0F9F716101A305A2C5D42C722E0B385A /* Debug */,
 				5C74BF19E9ED9821931519AC28D984EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B69F50701A74008D55A994FC39018E9F /* Build configuration list for PBXNativeTarget "Pods-ContentSizeView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CA18C5479CD4DC99ECB80223860F160E /* Debug */,
-				DADA86CDFE747F855C6D74D2036802A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
