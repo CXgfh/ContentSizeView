@@ -1,0 +1,16 @@
+PODS:
+  - ContentSizeView (0.1.0)
+
+DEPENDENCIES:
+  - ContentSizeView (from `../`)
+
+EXTERNAL SOURCES:
+  ContentSizeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ContentSizeView: 63d453a6f950d8818ef4064667c458eace3b0836
+
+PODFILE CHECKSUM: 52b80acd4c686672bb3fc969a3604e4c7a18b312
+
+COCOAPODS: 1.11.3

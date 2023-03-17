@@ -1,0 +1,22 @@
+{
+  "name": "ContentSizeView",
+  "version": "0.1.0",
+  "summary": "A short description of ContentSizeView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/V/ContentSizeView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "V": "gfh.cynthia@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/V/ContentSizeView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ContentSizeView/Classes/**/*"
+}

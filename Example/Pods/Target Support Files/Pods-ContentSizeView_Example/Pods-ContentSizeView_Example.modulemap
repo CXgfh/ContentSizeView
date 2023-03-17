@@ -1,0 +1,6 @@
+framework module Pods_ContentSizeView_Example {
+  umbrella header "Pods-ContentSizeView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
